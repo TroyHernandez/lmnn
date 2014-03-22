@@ -1,0 +1,6 @@
+This is an R package that implements the large-margin nearest neighbor algorithm
+as found in Weinberger (2006).
+
+Weinberger, K., Blitzer, J., & Saul, L. (2006). Distance metric learning for
+large margin nearest neighbor classification. Advances in neural information
+processing systems, 18, 1473.

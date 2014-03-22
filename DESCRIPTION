@@ -1,11 +1,13 @@
-This is an R package that implements the large-margin nearest neighbor algorithm
-as found in Weinberger (2006). Currently, the implementation only computes a
-linear transformation matrix, L, that is diagonal.  This results in a linear
-programming problem that minimizes/maximizes the L1 distance between
-target/imposter neighbors. An additional function is provided that repeatedly implements the LMNN algorithm
-due to the fact that target neighbors can change depending on the calculated
-transformation.
-
-Weinberger, K., Blitzer, J., & Saul, L. (2006). Distance metric learning for
-large margin nearest neighbor classification. Advances in neural information
-processing systems, 18, 1473.
+Package: lmnn
+Type: Package
+Title: An R package for the large-margin nearest neighbor algorithm
+Version: 0.1
+Date: 2014-03-22
+Author: Troy Hernandez <troy.a.hernandez@gmail.com>
+Maintainer: Troy Hernandez <troy.a.hernandez@gmail.com>
+Description: The package was developed to calculate the large-margin nearest
+    neighbor
+Imports:
+    linprog,
+    caret
+License: MIT2
